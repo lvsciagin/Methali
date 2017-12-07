@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.user.methali.list">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nai" />
+
+    <TextView
+        android:id="@+id/methali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Baadhi ya methali"
+        android:textColor="#B0BEC5"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/methali"
+        android:layout_centerHorizontal="true"
+        android:text="Swahili Proverbs at Your Fingertips"
+        android:textColor="#B0BEC5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Code n' Keys 2017"
+        android:textColor="#E0F2F1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hello"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="POLE POLE NDIO MWENDO
+Meaning: Slow, slow is the way to go/slowness is the better locomotion.
+Application: Being steady and keen is important when performing given tasks." />
+
+    <TextView
+        android:id="@+id/sample2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sample1"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="HARAKA HARAKA HAINA BARAKA
+Meaning: Hurry, hurry, has no blessings.
+Application: More haste less speed. It is important to do a given assignment well and not to hurry for the sake of completing it." />
+
+    <TextView
+        android:id="@+id/sample3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sample2"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text=" DAWA YA MOTO NI MOTO
+Meaning: The remedy for fire is fire.
+Application: Tit for tat. Tough situations require bold decisions and leadership." />
+
+    <TextView
+        android:id="@+id/sample4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sample3"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text=" MTU NI WATU
+Meaning: A person is people.
+Application: No man is an island. Every person needs the company/help of others." />
+
+    <TextView
+        android:id="@+id/sample5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sample4"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text=" TISA KARIBU NA KUMI
+Meaning: Nine is near ten.
+Application: Never give up when you are about to complete a task or nearing the end." />
+
+</RelativeLayout>
+</ScrollView>
